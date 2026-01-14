@@ -55,8 +55,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      // image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Metin2 Quest Programming',
         logo: {
@@ -76,47 +74,6 @@ const config = {
             position: 'right',
           },
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Introduction',
-                to: '/',
-              },
-              {
-                label: 'Getting Started',
-                to: '/getting-started',
-              },
-              {
-                label: 'API Reference',
-                to: '/api-reference/player-api',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Metin2 Dev',
-                href: 'https://metin2.dev',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/wielandino/metin2-quest-docs',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Metin2 Quest Programming Documentation. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
