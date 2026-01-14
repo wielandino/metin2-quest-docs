@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmetin2_quest_docs=globalThis.webpackChunkmetin2_quest_docs||[]).push([[330],{1966(s){s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
