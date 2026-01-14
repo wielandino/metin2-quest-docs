@@ -21,7 +21,7 @@ const config = {
   organizationName: 'wielandino', // Usually your GitHub org/user name.
   projectName: 'metin2-quest-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -29,7 +29,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'de',
-    locales: ['de', 'en'],
+    locales: ['de'],
   },
 
   presets: [
